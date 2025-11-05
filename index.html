@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rayane Adjou – Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+  <style>
+    /* Fallback if JS disabled: show content without fade-in */
+    .no-js .fade-in { opacity: 1; transform: none; }
+  </style>
+</head>
+<body class="no-js">
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <span class="logo">Rayane Adjou</span>
+      <ul class="nav-links">
+        <li><a href="#hero">Accueil</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#experience">Expériences</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="hero" class="hero fade-in">
+    <div class="container hero-content">
+      <div class="profile-photo">
+        <div class="photo-placeholder">Ajouter photo</div>
+      </div>
+      <h1 class="hero-name">Adjou Rayane</h1>
+      <h2 class="hero-title">Software Engineer</h2>
+      <p class="hero-description">
+        Passionné par le développement logiciel, la cybersécurité, l'innovation et les projets ambitieux.<br>
+        Jeune diplômé de l’Institut Supérieur d’Électronique de Paris (ISEP), je conçois des solutions créatives pour les défis de demain.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">Voir mes projets</a>
+        <a href="#contact" class="btn btn-outline">Me contacter</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- À propos -->
+  <section id="about" class="container fade-in">
+    <h2>À propos de moi</h2>
+    <p class="subtitle">Finaliste en ingénierie logicielle à l’ISEP, passionné par les technologies innovantes, l’IA et le spatial. Expériences chez Condor Electronics et InterResto.</p>
+    <div class="about-grid">
+      <div class="about-card"><i class="fas fa-code"></i><h3>Clean Code</h3><p>Développement de solutions élégantes et maintenables</p></div>
+      <div class="about-card"><i class="fas fa-lightbulb"></i><h3>Innovation</h3><p>Passion pour les technologies émergentes</p></div>
+      <div class="about-card"><i class="fas fa-robot"></i><h3>IA & Spatial</h3><p>Intérêt pour l’IA et l’industrie spatiale</p></div>
+      <div class="about-card"><i class="fas fa-users"></i><h3>Leadership</h3><p>Collaboration et gestion d’équipe</p></div>
+    </div>
+  </section>
+
+  <!-- Projets -->
+  <section id="projects" class="container fade-in">
+    <h2>Mes Projets</h2>
+    <div class="grid">
+      <div class="card">
+        <h3><i class="fas fa-laptop-code"></i> Portfolio Personnel</h3>
+        <p>Site responsive avec React, TypeScript, Tailwind CSS et Vite. Animations fluides et design adaptatif.</p>
+        <span class="tech">HTML • CSS • React • Tailwind</span>
+      </div>
+      <div class="card">
+        <h3><i class="fas fa-chart-line"></i> Portefeuille Financier</h3>
+        <p>Application JavaFX pour suivre des investissements, avec interface graphique et base de données intégrée.</p>
+        <span class="tech">Java • JavaFX • CSS • MySQL</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Expériences -->
+  <section id="experience" class="container fade-in">
+    <h2>Expériences</h2>
+    <div class="grid">
+      <div class="card">
+        <h3><i class="fas fa-industry"></i> Condor Electronics</h3>
+        <p><em>Août – Janvier 2024 · Algérie</em></p>
+        <ul>
+          <li>Optimisation des performances système (+25%)</li>
+          <li>Interfaces utilisateur intuitives</li>
+          <li>Applications pour luminancemètre (JAVA / MYSQL / PHP)</li>
+          <li>Recherche de spécifications matérielles</li>
+        </ul>
+        <a class="btn" href="Rapport_Condor.pdf" download>📄 Rapport Condor</a>
+      </div>
+      <div class="card">
+        <h3><i class="fas fa-shield-alt"></i> InterResto</h3>
+        <p><em>Septembre – Décembre 2025 · France</em></p>
+        <ul>
+          <li>Audit de sécurité (ISO 27001 / NIST / CIS)</li>
+          <li>Configuration réseau, NAS Synology, Stormshield</li>
+          <li>Dossiers partagés sécurisés</li>
+          <li>Référent technique unique</li>
+        </ul>
+        <a class="btn" href="Rapport_InterResto.pdf" download>📄 Rapport InterResto</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Compétences -->
+  <section id="skills" class="container fade-in">
+    <h2>Compétences</h2>
+    <p class="subtitle">Un ensemble diversifié de compétences techniques et humaines acquises à travers mes projets et expériences professionnelles.</p>
+    <div class="skills-grid">
+      <div class="skill-box blue"><h3><i class="fas fa-code"></i> Langages</h3><p>Python • JavaScript • TypeScript • C++ • Java • SQL</p></div>
+      <div class="skill-box green"><h3><i class="fas fa-cubes"></i> Frameworks</h3><p>React • Django • Node.js • Express • FastAPI • Tailwind CSS</p></div>
+      <div class="skill-box purple"><h3><i class="fas fa-database"></i> Bases de données</h3><p>PostgreSQL • MongoDB • Redis • SQLite • MySQL</p></div>
+      <div class="skill-box orange"><h3><i class="fas fa-tools"></i> Outils & DevOps</h3><p>Git • Docker • Linux • AWS</p></div>
+      <div class="skill-box pink"><h3><i class="fas fa-user-friends"></i> Soft Skills</h3><p>Leadership • Travail d'équipe</p></div>
+      <div class="skill-box red"><h3><i class="fas fa-brain"></i> Passions</h3><p>Intelligence Artificielle</p></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container fade-in">
+    <h2>Contact</h2>
+    <p>Prêt à collaborer sur des projets innovants ? N’hésitez pas à me contacter.</p>
+    <div class="contact-icons">
+      <a href="mailto:rayaneadjou@eleve.isep.fr" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="tel:+33628211414" title="Téléphone"><i class="fas fa-phone"></i></a>
+      <a href="https://linkedin.com/in/rayaneadjou" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/rayaneadjou" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+    </div>
+    <a class="btn" href="CV_Rayane.pdf" download>📄 Télécharger mon CV</a>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Rayane Adjou – Portfolio Bac+5 | Tous droits réservés</p>
+    </div>
+  </footer>
+  <script>
+    // Remove no-js class ASAP for better CLS
+    document.documentElement.classList.remove('no-js');
+    document.body.classList.remove('no-js');
+  </script>
+  <script src="script.js" defer></script>
+</body>
+</html>
